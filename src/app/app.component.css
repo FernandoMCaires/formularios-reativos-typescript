@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.brand span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #495057;
+}
+
+.nav-links a:hover {
+  background: #e9ecef;
+}
+
+.nav-links a.active {
+  background: #007bff;
+  color: white;
+}
+
+main {
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+}
